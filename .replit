@@ -1,0 +1,14 @@
+run = "python3 bot.py"
+
+[env]
+PYTHONUNBUFFERED = "1"
+
+[packager]
+packages = []
+ignoredPackages = []
+
+[unit]
+language = "python3"
+
+[interpreter]
+command = ["python3", "-i"]
